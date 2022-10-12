@@ -5,6 +5,10 @@
     font-family: sans-serif;
     text-align: center;
 }
+body{
+    background: black;
+    color: white;
+}
 main{
     width: 50%;
     margin: 50px auto;
@@ -34,11 +38,28 @@ input{
     font-size: 1.5rem;
     border-radius: 15px;
 }
-.off{
-    display: none;
-}
+
 video{
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(88, 88, 88);
     border-radius: 5px;
     padding: 10px;
+}
+.try{
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 15px;
+    background: cornflowerblue;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 dimgray;
+    margin: 10px auto; 
+}
+label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
+
+.off{
+    display: none;
 }
