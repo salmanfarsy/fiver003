@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+main{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.startCall{
+    font-size: 3rem;
+    font-size: 3rem;
+    padding: 10px;
+    border-radius: 15px;
+    background: royalblue;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 dimgray;
+    margin: 10px;
+}
+.submit{
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 15px;
+    background: orangered;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 dimgray;
+    margin: 10px auto;
+}
+input{
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+.off{
+    display: none;
+}
+video{
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+    padding: 10px;
+}
