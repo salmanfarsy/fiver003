@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+body{
+    background: black;
+    color: white;
+}
+main{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.startCall{
+    font-size: 3rem;
+    font-size: 3rem;
+    padding: 10px;
+    border-radius: 15px;
+    background: royalblue;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 dimgray;
+    margin: 10px;
+}
+.submit{
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 15px;
+    background: orangered;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 dimgray;
+    margin: 10px auto;
+}
+input{
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+video{
+    box-shadow: 0 0 5px rgb(88, 88, 88);
+    border-radius: 5px;
+    padding: 10px;
+}
+.try{
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 15px;
+    background: cornflowerblue;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 dimgray;
+    margin: 10px auto; 
+}
+label{
+    display: block;
+    font-size: 1.5rem;
+    margin: 10px auto;
+}
+
+.off{
+    display: none;
+}
